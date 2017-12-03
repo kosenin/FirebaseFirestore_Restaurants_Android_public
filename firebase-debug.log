@@ -1,0 +1,44 @@
+[debug] [2017-12-03T19:29:02.904Z] ----------------------------------------------------------------------
+[debug] [2017-12-03T19:29:02.907Z] Command:       /usr/local/Cellar/node/8.3.0/bin/node /usr/local/bin/firebase init firestore
+[debug] [2017-12-03T19:29:02.908Z] CLI Version:   3.9.2
+[debug] [2017-12-03T19:29:02.908Z] Platform:      darwin
+[debug] [2017-12-03T19:29:02.908Z] Node Version:  v8.3.0
+[debug] [2017-12-03T19:29:02.908Z] Time:          Sun Dec 03 2017 20:29:02 GMT+0100 (CET)
+[debug] [2017-12-03T19:29:02.908Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-03T19:29:02.922Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-12-03T19:29:02.923Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/konstantinkochetov/FirebaseProjects/quickstart-android/firestore
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-12-03T19:29:02.930Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sun Dec 03 2017 20:29:02 GMT+0100 (CET)
+[debug] [2017-12-03T19:29:03.740Z] <<< HTTP RESPONSE 200
+[info] 
+=== Firestore Setup
+[debug] [2017-12-03T19:29:05.546Z] TypeError: features[nextFeature] is not a function
+    at init (/usr/local/lib/node_modules/firebase-tools/lib/init/index.js:14:46)
+    at /usr/local/lib/node_modules/firebase-tools/lib/init/index.js:15:14
+    at tryCatch (/usr/local/lib/node_modules/firebase-tools/node_modules/rsvp/dist/rsvp.js:525:12)
+    at invokeCallback (/usr/local/lib/node_modules/firebase-tools/node_modules/rsvp/dist/rsvp.js:538:13)
+    at publish (/usr/local/lib/node_modules/firebase-tools/node_modules/rsvp/dist/rsvp.js:508:7)
+    at flush (/usr/local/lib/node_modules/firebase-tools/node_modules/rsvp/dist/rsvp.js:2415:5)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.

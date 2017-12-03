@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Friendly Eats</string>
+    <string name="app_name">Restaurants</string>
 
     <string name="value_any_category">All food</string>
     <string name="value_any_city">Anywhere</string>
@@ -39,7 +39,7 @@
     <string name="submit">Submit</string>
     <string name="filter_add_review">Add review</string>
 
-    <!-- Types of food I could think of in 5 minutes -->
+    <!-- Виды еды -->
     <string-array name="categories">
         <item>@string/value_any_category</item>
 
@@ -58,7 +58,7 @@
     </string-array>
     ite
 
-    <!-- 50 most populous cities in the US -->
+    <!-- Города -->
     <string-array name="cities">
         <item>@string/value_any_city</item>
 
@@ -111,7 +111,7 @@
         <item>Washington</item>
     </string-array>
 
-    <!-- Price filters -->
+    <!-- Ценовые фильтры -->
     <string-array name="prices">
         <item>@string/value_any_price</item>
 
@@ -120,7 +120,7 @@
         <item>@string/price_3</item>
     </string-array>
 
-    <!-- Ways you can sort restaurants -->
+    <!-- Сортировка-->
     <string-array name="sort_by">
         <item>@string/sort_by_rating</item>
         <item>@string/sort_by_popularity</item>
