@@ -45,7 +45,7 @@ service cloud.firestore {
 PS: В случае проблем в build.gradle файле обновите библиотеки Firebase на более новые версии. Андроид Студио выделит их цветом и вы можете просто нажать Alt+Enter либо сделайте это вручную. Последнии версии библиотек Firebase доступны [здесь][firebase-libraries1] и [здесь][firebase-libraries2]
 
 ## Создание индексов
-При первых использованиях функционала фильтрации результатов (например, фильтровать рестораны по рейтингу и по цене) вы логах (например в Logcat в Фндроид студио) вы сможете увидеть предупреждения вида:
+При первых использованиях функционала фильтрации результатов (например, фильтровать рестораны по рейтингу и по цене) вы логах (например в Logcat в Андроид Студио) вы сможете увидеть предупреждения вида:
 ```
 com.google.firebase.example.fireeats W/Firestore Adapter: onEvent:error
 com.google.firebase.firestore.FirebaseFirestoreException: FAILED_PRECONDITION: The query requires an index. You can create it here: https://console.firebase.google.com/project/...
