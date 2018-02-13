@@ -57,7 +57,7 @@ com.google.firebase.firestore.FirebaseFirestoreException: FAILED_PRECONDITION: T
 
 Это приложение также предоставляет файл спецификации индекса в `indexes.json`
 который определяет все индексы, необходимые для запуска приложения. Ты можешь
-добавить все эти индексы через терминал. Для этого введи команду firebase init firestore для создания JSON файла и firebase deploy --only firestore:indexes для загрузки индексов.
+добавить все эти индексы через терминал. Как это сделать смотри в лекции [0.15][firebase-lecture-0-15] в разделе "Создание индексов с помощью Консоли".
 
 ## Документация
 Документация, новости и туториалы на русском языке доступны на сайте [firebase-info.com][firebaseinfo].
@@ -76,3 +76,4 @@ com.google.firebase.firestore.FirebaseFirestoreException: FAILED_PRECONDITION: T
 [firebase-libraries1]: https://firebase.google.com/support/release-notes/android
 [firebase-libraries2]: https://firebase.google.com/docs/android/setup
 [firebaseinfo]: https://firebase-info.com/%D0%BA%D0%B0%D1%80%D1%82%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D0%B0/
+[firebase-lecture-0-15]: https://firebase-info.com/2017/12/03/%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81-%D0%B1%D0%B0%D0%B7%D0%BE%D0%B9-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-firestore-%D1%81-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82/
